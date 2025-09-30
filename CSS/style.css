@@ -820,5 +820,49 @@ font-size: 17px;
 }
 /*Section Hero End*/
 
+/*Section About Start*/
+.about {
+    height:95vh;
+    padding-top:50px;
+}
 
+.about .aboutCont {
+    width: 95%;
+    height:750px;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.about .aboutCont div {
+    width:90%;
+}
+
+.about .aboutCont div cite {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.about .aboutCont div h1 {
+    font-size: 20px;
+    margin:0px 0px 20px 0px;
+}
+
+.about .aboutCont div p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.about .aboutCont div span {
+    font-size: 15px;
+}
+
+.about .aboutCont .about-img {
+    width:85%;
+    height:250px;
+    border: 2px solid rgb(50, 112, 228);
+    outline: 2px solid blueviolet;
+    outline-offset: 3px;
+    opacity: 0.9;
+}
+/*Section About End*/
 }
