@@ -943,4 +943,42 @@ font-size: 17px;
     font-size: 12px;
     line-height: 20px;
 }
+/*Section Service End*/
+
+/*Section Project Start*/
+.project{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+.project .project-grid {
+    width: 95%;
+    height:auto;
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.project .project-text{
+    width:95%;
+    height:auto;
+    text-align: center;
+    padding: 30px;
+}
+.project .project-text h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.project .project-text p{
+    font-size: 12px;
+}
+.project-grid div{
+    width: 150px;;
+    height: 220px;
+    margin:0 auto;
+}
+
+.project-grid div a{
+    font-size: 14px;
+}
+/*Section Project End*/
 }
