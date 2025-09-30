@@ -35,12 +35,12 @@ If you want to **connect, collaborate, or hire me**, you can find my contact det
 ---
 
 ## 🔗 Live Demo  
-👉 [View Website](https://your-live-demo-link.com)  
+👉 [View Website](https://mahafujur80.github.io/MAHAFUJUR-R-MUNNA/)  
 
 ---
 
 ## 🖼️ Preview  
-![Website Preview](.png)  
+![Website Preview](./IMG/demu-web-img.PNG)  
 
 ---
 
