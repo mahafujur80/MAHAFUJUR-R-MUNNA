@@ -687,6 +687,7 @@ header div {
 }
 
 header ul {
+    margin: 0 auto;
     gap: 0px;
 }
 
@@ -697,13 +698,14 @@ header .logo{
     width: auto;
 }
 header .nav ul li a {
-    font-size: 10px;
-    padding: 5px 5px;
+    font-size: 12px;
+    padding: 4px 2px;
 }
 
 header .nav ul li a:hover {
     color: #0080ff;
-    padding: 4px 5px;
+    padding: 4px 2px;
+    border-radius: 5px;
 }
    /*Menu button start*/
     .checkbtn {
@@ -749,7 +751,7 @@ header .nav ul li a:hover {
 }
 
 .hero .herodiv .info {
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .hero .herodiv .info h2 {
@@ -779,7 +781,7 @@ header .nav ul li a:hover {
 }
 
 .hero .herodiv .img-logo {
-    width: 70px;
+    width: 80px;
     height: 70px;
     outline: 2px solid rgb(255, 255, 255);
     outline-offset: 5px;
@@ -907,5 +909,38 @@ font-size: 17px;
 /*Section Skill End*/
 
 /*Section Service Start*/
+.services{
+    width: 100%;
+    height: auto;
+    margin:50px 0px 50px 0px;
+}
+.services .text-ser{
+    margin: 5px;
+    font-size: 20px;
+}
+.services .serviceList{
+    width:95%;
+    height: auto;
+    padding: 10px 0px;
+}
+.services .serviceList div{
+    width: 160px;
+    height:250px;
+    margin-bottom: 10px;
+    padding:5px;
+}
 
+.services .serviceList div h1{
+    font-size: 14px;
+    padding-bottom:10px;
+}
+
+.services .serviceList div i{
+    font-size:20px;
+    padding: 10px;
+}
+.services .serviceList div p{
+    font-size: 12px;
+    line-height: 20px;
+}
 }
