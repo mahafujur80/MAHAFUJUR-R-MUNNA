@@ -5,6 +5,7 @@
     font-family: "Poppins", Arial, sans-serif;
 }
 
+/*Section Header Start*/
 header {
     width: 100%;
     height: 70px;
@@ -57,14 +58,16 @@ header .nav ul li a:hover {
     position: absolute;
     right: 25px;
     top: 12px;
-    color:white;
+    color: white;
 }
 
 #check {
     display: none;
 }
 
+/*Section Header End*/
 
+/*Section Hero Start*/
 .hero {
     width: 100%;
     height: 100vh;
@@ -186,12 +189,14 @@ header .nav ul li a:hover {
     margin-left: 10px;
 }
 
+/*Section Hero End*/
 
+/*Section About Start*/
 .about {
     width: 100%;
-    height:100vh;
+    height: 100vh;
     background-color: rgb(227, 242, 255);
-    padding-top:70px;
+    padding-top: 70px;
 
 
 }
@@ -251,8 +256,9 @@ header .nav ul li a:hover {
     opacity: 0.9;
 }
 
+/*Section About End*/
 
-
+/*Section Skill Start*/
 .skill {
     width: 100%;
     height: auto;
@@ -261,19 +267,20 @@ header .nav ul li a:hover {
 
 }
 
-.skill h1{
+.skill h1 {
     text-align: center;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 30px;
     padding: 30px 0px;
     text-transform: uppercase;
     font-family: "Ubuntu", monospace;
     letter-spacing: 5px;
-    color:#0051ff;
+    color: #0051ff;
 }
+
 .skill .skillConteiner {
     width: 95%;
-    height:auto;
+    height: auto;
     padding: 50px;
     margin: 0 auto;
     display: flex;
@@ -293,7 +300,7 @@ header .nav ul li a:hover {
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 1px 5px gray;
-    transition:  0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .skill .skillConteiner div:hover {
@@ -326,23 +333,28 @@ header .nav ul li a:hover {
     font-family: "Roboto", sans-serif;
 }
 
-.services{
+/*Section Skill End*/
+
+/*Section Services Start*/
+.services {
     width: 100%;
     height: auto;
-    margin:50px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
 }
-.services .text-ser{
+
+.services .text-ser {
     text-align: center;
     margin: 30px;
     font-weight: 600;
     font-size: 30px;
-    color:#0051ff;
+    color: #0051ff;
     font-family: "Ubuntu";
 }
-.services .serviceList{
+
+.services .serviceList {
     width: 90%;
     height: auto;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -350,9 +362,10 @@ header .nav ul li a:hover {
     padding: 50px 0px;
     perspective: 100px;
 }
-.services .serviceList div{
+
+.services .serviceList div {
     width: 280px;
-    height:290px;
+    height: 290px;
     margin: 0 auto;
     text-align: center;
     padding: 10px;
@@ -360,138 +373,162 @@ header .nav ul li a:hover {
     border-radius: 10px;
     transition: all 0.4s ease-in-out;
 }
-.services .serviceList div:hover{
-    transform:scale(1.05);
-    background: linear-gradient(rgba(46, 46, 236, 0.699),rgba(37, 185, 243, 0.726));
+
+.services .serviceList div:hover {
+    transform: scale(1.05);
+    background: linear-gradient(rgba(46, 46, 236, 0.699), rgba(37, 185, 243, 0.726));
 }
-.services .serviceList div h1{
+
+.services .serviceList div h1 {
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 20px;
-    font-family: "Ubuntu"sans-serif;
-    color:rgb(85, 84, 84);
+    font-family: "Ubuntu" sans-serif;
+    color: rgb(85, 84, 84);
 }
-.services .serviceList div:hover h1{
-    color:white;
+
+.services .serviceList div:hover h1 {
+    color: white;
 }
-.services .serviceList div i{
-    font-size:30px;
+
+.services .serviceList div i {
+    font-size: 30px;
     padding: 20px;
     margin-right: 25px;
-    color:#0080ff;
+    color: #0080ff;
 }
-.services .serviceList div:hover i{
-    color:white;
+
+.services .serviceList div:hover i {
+    color: white;
 }
-.services .serviceList div p{
+
+.services .serviceList div p {
     font-size: 14px;
-    color:rgb(70, 70, 70);
-line-height: 25px;
-}
-.services .serviceList div:hover p{
-    color:white;
+    color: rgb(70, 70, 70);
+    line-height: 25px;
 }
 
+.services .serviceList div:hover p {
+    color: white;
+}
 
+/*Section Services End*/
 
-.project{
+/*Section Projects Start*/
+.project {
     width: 100%;
-    height:auto;
+    height: auto;
     background: rgb(225, 245, 247);
     padding-bottom: 50px;
 }
+
 .project .project-grid {
     width: 70%;
-    height:450px;
+    height: 450px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
-    gap:20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
 }
-.project .project-text{
+
+.project .project-text {
     text-align: center;
     width: 700px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 30px;
 }
-.project .project-text h1{
-    color:#0051ff;
+
+.project .project-text h1 {
+    color: #0051ff;
     font-family: "Ubuntu";
     padding-bottom: 10px;
 }
-.project .project-text p{
+
+.project .project-text p {
     font-size: 15px;
-    color:rgba(0, 0, 0, 0.726);
+    color: rgba(0, 0, 0, 0.726);
 }
-.project-grid div{
+
+.project-grid div {
     background-color: #8998bd;
-    width:auto;
+    width: auto;
     height: 220px;
     text-align: center;
     border-radius: 10px;
     transition: all 0.5s;
 }
-.project-grid div:hover{
+
+.project-grid div:hover {
     transform: scale(1.05);
 }
 
-.project-grid div a{
-       display: none;
+.project-grid div a {
+    display: none;
 }
-.project-grid .grid1{
+
+.project-grid .grid1 {
     grid-column: 1/3;
-    background:url(../IMG/vegefoods-bg.PNG) no-repeat;
+    background: url(../IMG/vegefoods-bg.PNG) no-repeat;
     background-position: center;
     background-size: cover;
 }
-.project-grid .grid2{
-    background:url(../IMG/basic-ecom-bg.PNG) no-repeat;
+
+.project-grid .grid2 {
+    background: url(../IMG/basic-ecom-bg.PNG) no-repeat;
     background-position: center;
     background-size: cover;
 }
-.project-grid .grid6{
-   grid-column: 3/5;
-     height: auto;
-    background:url(../IMG/mrm-port-bg.PNG) no-repeat;
+
+.project-grid .grid6 {
+    grid-column: 3/5;
+    height: auto;
+    background: url(../IMG/mrm-port-bg.PNG) no-repeat;
     background-position: center;
     background-size: cover;
 }
-.project-grid div a{
+
+.project-grid div a {
     text-decoration: none;
-    background:#0080ff;
-    color:white;
+    background: #0080ff;
+    color: white;
     font-weight: 500;
     padding: 5px 10px;
-    border-radius:5px;
+    border-radius: 5px;
 }
-.project-grid div:hover a{
+
+.project-grid div:hover a {
     display: inline-block;
     margin-top: 100px;
-    box-shadow: 2px 2px 5px rgb(77, 77, 247),-2px -2px 5px rgb(77, 77, 247);
+    box-shadow: 2px 2px 5px rgb(77, 77, 247), -2px -2px 5px rgb(77, 77, 247);
 }
-.project-grid div a:hover{
+
+.project-grid div a:hover {
     background-color: rebeccapurple;
     transition: all 0.3s ease-in-out;
 }
 
+/*Section Projects End*/
 
+/*Section Contacts Start*/
 .contact {
     width: 100%;
     height: auto;
     background: rgb(243, 245, 247);
     padding: 40px 0;
 }
-.contact h1{
-    text-align:center;
+
+.contact h1 {
+    text-align: center;
     font-size: 30px;
     font-weight: 600;
-    color:#0051ff;
+    color: #0051ff;
     padding: 20px;
-    font-family:"Ubuntu";
+    font-family: "Ubuntu";
 
 }
-.contact .cont-conteiner{
+
+.contact .cont-conteiner {
     width: 95%;
     height: auto;
     margin: 0 auto;
@@ -500,214 +537,246 @@ line-height: 25px;
     justify-content: space-between;
     gap: 20px;
 }
-.contact .cont-conteiner div{
+
+.contact .cont-conteiner div {
     width: 300px;
-    height:300px;
+    height: 300px;
     background: #e6e6e6;
     border-radius: 8px;
     padding: 15px;
 }
-iframe{
-  width:100%;
-  height:90%;
+
+iframe {
+    width: 100%;
+    height: 90%;
 }
-.contact .cont-conteiner div h2{
+
+.contact .cont-conteiner div h2 {
     font-size: 20px;
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
-    color:#0080ff;
+    color: #0080ff;
     padding-bottom: 20px;
 }
-.contact .cont-conteiner .social p{
-     font-size: 15px;
-     color:rgb(97, 96, 96);
-     padding:20px 0px 60px 0px;
+
+.contact .cont-conteiner .social p {
+    font-size: 15px;
+    color: rgb(97, 96, 96);
+    padding: 20px 0px 60px 0px;
 }
-.contact .cont-conteiner .social a i{
+
+.contact .cont-conteiner .social a i {
     font-size: 25px;
     margin-right: 10px;
-    color:#434344;
+    color: #434344;
 }
-.contact .cont-conteiner .social a i:hover{
+
+.contact .cont-conteiner .social a i:hover {
     color: blueviolet;
     transform: rotateY(360deg) scale(1.5);
     transition: all 0.6s ease-in-out;
 }
-.contact .cont-conteiner .personal h3{
-   color:#0080ff;
-   font-weight: 600;
-   font-family:"Ubuntu", sans-serif;
-   padding-bottom: 40px;
+
+.contact .cont-conteiner .personal h3 {
+    color: #0080ff;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+    padding-bottom: 40px;
 }
-.contact .cont-conteiner .personal a{
+
+.contact .cont-conteiner .personal a {
     text-decoration: none;
-    font-size:13px;
-    color:rgb(97, 96, 96);
+    font-size: 13px;
+    color: rgb(97, 96, 96);
 }
-.contact .cont-conteiner .personal P{
+
+.contact .cont-conteiner .personal P {
     font-size: 15px;
-    color:rgb(97, 96, 96);
-    padding:10px 0px;
+    color: rgb(97, 96, 96);
+    padding: 10px 0px;
 }
-.contact .cont-conteiner .talk h2{
+
+.contact .cont-conteiner .talk h2 {
     margin-bottom: 150px;
 }
-.contact .cont-conteiner .talk i{
+
+.contact .cont-conteiner .talk i {
     font-size: 30px;
 }
-.contact .cont-conteiner .talk a{
+
+.contact .cont-conteiner .talk a {
     text-decoration: none;
-    color:white;
-    background:linear-gradient(rgb(110, 189, 241),rgb(83, 100, 248));
+    color: white;
+    background: linear-gradient(rgb(110, 189, 241), rgb(83, 100, 248));
     padding: 15px 30px;
     border-radius: 10px;
     transition: all 0.4s ease-in-out;
 }
-.contact .cont-conteiner .talk a:hover{
-    background:linear-gradient(rgb(79, 179, 247),rgb(69, 87, 243));
-    box-shadow: 2px 2px 10px rgb(44, 243, 104),-2px -2px 10px rgb(44, 243, 104);
+
+.contact .cont-conteiner .talk a:hover {
+    background: linear-gradient(rgb(79, 179, 247), rgb(69, 87, 243));
+    box-shadow: 2px 2px 10px rgb(44, 243, 104), -2px -2px 10px rgb(44, 243, 104);
 }
 
+/*Section Contacts End*/
 
-footer{
+/*Section Footer Start*/
+footer {
     width: 100%;
     height: auto;
     background-color: #383846;
-    padding: 50px 0px 50px 0px ;
+    padding: 50px 0px 50px 0px;
 }
-footer .footer-container{
+
+footer .footer-container {
     width: 90%;
     height: auto;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     color: #ffffff;
 }
-footer .footer-container div{
+
+footer .footer-container div {
     width: 300px;
     height: auto;
 }
-footer .footer-container .logo h1{
+
+footer .footer-container .logo h1 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
-    font-family: "Ubuntu",sans-serif;
-    color:rgba(255, 255, 72, 0.801);
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(255, 255, 72, 0.801);
 
 }
-footer .footer-container .logo p{
+
+footer .footer-container .logo p {
     font-size: 13px;
-    color:rgb(219, 219, 217);
+    color: rgb(219, 219, 217);
 }
-footer .footer-container .logo a{
+
+footer .footer-container .logo a {
     text-decoration: none;
-    color:whitesmoke;
+    color: whitesmoke;
     font-weight: 600;
-    font-size:14px;
-    color:rgb(219, 219, 217);
+    font-size: 14px;
+    color: rgb(219, 219, 217);
 }
-footer .footer-container .logo a:hover{
-    color:#0080ff;
-    text-decoration:underline;
+
+footer .footer-container .logo a:hover {
+    color: #0080ff;
+    text-decoration: underline;
 }
-footer .footer-container .logo .copyright{
+
+footer .footer-container .logo .copyright {
     margin-top: 20px;
     font-style: italic;
 }
 
-footer .footer-container .nav h1{
+footer .footer-container .nav h1 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-    font-family: "Ubuntu",sans-serif;
-    color:rgba(255, 255, 72, 0.801);
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(255, 255, 72, 0.801);
     margin-left: 80px;
 }
-footer .footer-container .nav ul li{
-  list-style: none;
-  line-height: 30px;
-  font-size: 15px;
-  margin-left: 80px;
+
+footer .footer-container .nav ul li {
+    list-style: none;
+    line-height: 30px;
+    font-size: 15px;
+    margin-left: 80px;
 }
-footer .footer-container .nav ul li a{
+
+footer .footer-container .nav ul li a {
     text-decoration: none;
-   color:rgb(219, 219, 217);
+    color: rgb(219, 219, 217);
 }
-footer .footer-container .nav ul li a:hover{
-    color:#0080ff;
+
+footer .footer-container .nav ul li a:hover {
+    color: #0080ff;
     font-size: 16px;
 }
 
-footer .footer-container .footer-service h2{
- font-size: 20px;
- font-weight: 600;
- font-family: "Ubuntu" ,sans-serif;
- margin-bottom:20px;
- color:rgba(255, 255, 72, 0.801);
+footer .footer-container .footer-service h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 72, 0.801);
 }
-footer .footer-container .footer-service li{
+
+footer .footer-container .footer-service li {
     list-style: none;
     line-height: 30px;
     font-size: 14px;
-    color:rgb(219, 219, 217);
+    color: rgb(219, 219, 217);
 }
 
-footer .footer-container .footer-social h3{
- font-size: 20px;
- font-weight: 600;
- margin-bottom: 100px;
- font-family: "Ubuntu",sans-serif;
- color:rgba(255, 255, 72, 0.801);
+footer .footer-container .footer-social h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 100px;
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(255, 255, 72, 0.801);
 }
 
-footer .footer-container .footer-social a{
-    color:white;
+footer .footer-container .footer-social a {
+    color: white;
     font-size: 25px;
     margin-right: 10px;
-    color:rgb(219, 219, 217);
+    color: rgb(219, 219, 217);
 }
-footer .footer-container .footer-social a:hover{
-    color:#0080ff;
+
+footer .footer-container .footer-social a:hover {
+    color: #0080ff;
     transition: all 0.3s ease-in-out;
     font-size: 23px;
     padding: 0px 11px;
 }
 
+/*Section Footer End*/
 
-
+/*Section @media Quary Start*/
 @media (max-width:768px) {
-/*Section Header & nav Start*/
-header {
-    height:60px;
-}
 
-header div {
-    margin: auto 25px;
-}
+    /*Section Header & nav Start*/
+    header {
+        height: 60px;
+    }
 
-header ul {
-    margin: 0 auto;
-    gap: 0px;
-}
+    header div {
+        margin: auto 25px;
+    }
 
-header .logo h1 {
-    font-size:18px;
-}
-header .logo{
-    width: auto;
-}
-header .nav ul li a {
-    font-size: 12px;
-    padding: 4px 2px;
-}
+    header ul {
+        margin: 0 auto;
+        gap: 0px;
+    }
 
-header .nav ul li a:hover {
-    color: #0080ff;
-    padding: 4px 2px;
-    border-radius: 5px;
-}
-   /*Menu button start*/
+    header .logo h1 {
+        font-size: 18px;
+    }
+
+    header .logo {
+        width: auto;
+    }
+
+    header .nav ul li a {
+        font-size: 12px;
+        padding: 4px 2px;
+    }
+
+    header .nav ul li a:hover {
+        color: #0080ff;
+        padding: 4px 2px;
+        border-radius: 5px;
+    }
+
+    /*Menu button start*/
     .checkbtn {
         display: block;
     }
@@ -717,7 +786,7 @@ header .nav ul li a:hover {
         width: 100%;
         height: 40px;
         margin: 0 auto;
-        background:#3699fc;
+        background: #3699fc;
         left: 0px;
         top: -100%;
         transition: all 0.5s ease-out;
@@ -736,369 +805,413 @@ header .nav ul li a:hover {
     #check:checked~ul {
         top: 60px;
     }
+
     /*Menu button end*/
-/*Section Header & nav End*/
+    /*Section Header & nav End*/
 
-/*Section Hero Star*/
-.hero {
-    width: 100%;
-    height:420px;
+    /*Section Hero Star*/
+    .hero {
+        width: 100%;
+        height: 420px;
+    }
+
+    .hero .herodiv {
+        width: 90%;
+        height: 250px;
+    }
+
+    .hero .herodiv .info {
+        margin-left: 50px;
+    }
+
+    .hero .herodiv .info h2 {
+        margin-top: 100px;
+        font-size: 14px;
+    }
+
+    .hero .herodiv .info h1 {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .hero .herodiv .info h3 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .hero .herodiv .info h4 {
+        margin-top: 12px;
+        font-size: 12px;
+    }
+
+    .hero .herodiv .info p {
+        margin-top: 10px;
+        font-size: 12px;
+        padding-bottom: 60px;
+    }
+
+    .hero .herodiv .img-logo {
+        width: 80px;
+        height: 70px;
+        outline: 2px solid rgb(255, 255, 255);
+        outline-offset: 5px;
+    }
+
+    .hero .contactinfo {
+        width: 95%;
+        align-items: start;
+        flex-direction: column;
+        gap: 0px;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+
+    .hero .contactinfo div {
+        width: 160px;
+        margin-bottom: 10px;
+    }
+
+    .hero .contactinfo h2 {
+        font-size: 14px;
+    }
+
+    .hero .contactinfo P {
+        font-size: 11px;
+    }
+
+    .hero .contactinfo p:hover {
+        font-size: 12px;
+    }
+
+    .hero .contactinfo a {
+        font-size: 12px;
+    }
+
+    .hero .contactinfo div i {
+        position: absolute;
+        top: 3px;
+        font-size: 17px;
+    }
+
+    /*Section Hero End*/
+
+    /*Section About Start*/
+    .about {
+        width: 100%;
+        height: 90vh;
+        padding-top: 50px;
+    }
+
+    .about .aboutCont {
+        width: 95%;
+        height: 700px;
+        flex-direction: column;
+        border-radius: 12px;
+    }
+
+    .about .aboutCont div {
+        width: 90%;
+    }
+
+    .about .aboutCont div cite {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .about .aboutCont div h1 {
+        font-size: 20px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .about .aboutCont div p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .about .aboutCont div span {
+        font-size: 15px;
+    }
+
+    .about .aboutCont .about-img {
+        width: 85%;
+        height: 200px;
+        border: 2px solid rgb(50, 112, 228);
+        outline: 2px solid blueviolet;
+        outline-offset: 3px;
+        opacity: 0.9;
+    }
+
+    /*Section About End*/
+
+    /*Section Skill Start*/
+    .skill {
+        padding: 20px 0px 50px 0px;
+    }
+
+    .skill h1 {
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+
+    .skill .skillConteiner {
+        padding: 20px;
+        gap: 10px;
+        box-shadow: 1px 1px 2px rgb(197, 193, 193), -1px -1px 2px rgb(197, 193, 193);
+    }
+
+    .skill .skillConteiner div {
+        width: 340px;
+        height: 360px;
+        padding: 10px;
+    }
+
+    .skill .skillConteiner div img {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .skill .skillConteiner div h1 {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .skill .skillConteiner div p {
+        font-size: 13px;
+        margin-top: 10px;
+        line-height: 20px;
+    }
+
+    /*Section Skill End*/
+
+    /*Section Service Start*/
+    .services {
+        width: 100%;
+        height: auto;
+        margin: 50px 0px 50px 0px;
+    }
+
+    .services .text-ser {
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    .services .serviceList {
+        width: 95%;
+        height: auto;
+        padding: 10px 0px;
+    }
+
+    .services .serviceList div {
+        width: 160px;
+        height: 250px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .services .serviceList div h1 {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .services .serviceList div i {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .services .serviceList div p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /*Section Service End*/
+
+    /*Section Project Start*/
+    .project {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .project .project-grid {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .project .project-text {
+        width: 95%;
+        height: auto;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .project .project-text h1 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .project .project-text p {
+        font-size: 12px;
+    }
+
+    .project-grid div {
+        width: 150px;
+        ;
+        height: 220px;
+        margin: 0 auto;
+    }
+
+    .project-grid div a {
+        font-size: 14px;
+    }
+
+    /*Section Project End*/
+
+    /*Section Contact Start*/
+    .contact {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .contact h1 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contact .cont-conteiner {
+        width: 95%;
+        height: auto;
+        gap: 0px;
+    }
+
+    .contact .cont-conteiner div {
+        width: 160px;
+        height: 250px;
+        padding: 7px;
+        margin-bottom: 10px;
+    }
+
+    .contact .cont-conteiner div h2 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .contact .cont-conteiner .social p {
+        font-size: 13px;
+        padding: 20px 0px 50px 0px;
+    }
+
+    .contact .cont-conteiner .social a i {
+        font-size: 20px;
+        margin-right: 8px;
+    }
+
+    .contact .cont-conteiner .personal h3 {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    .contact .cont-conteiner .personal a {
+        font-size: 8px;
+    }
+
+    .contact .cont-conteiner .personal P {
+        font-size: 13px;
+        padding: 5px 0px;
+    }
+
+    .contact .cont-conteiner .talk h2 {
+        margin-bottom: 100px;
+    }
+
+    .contact .cont-conteiner .talk i {
+        font-size: 20px;
+    }
+
+    .contact .cont-conteiner .talk a {
+        font-size: 12px;
+        padding: 10px 20px;
+
+    }
+
+    /*Section Contact End*/
+    footer {
+        width: 100%;
+        height: auto;
+        padding: 50px 0px 0px 0px;
+    }
+
+    footer .footer-container {
+        width: 95%;
+        height: auto;
+    }
+
+    footer .footer-container div {
+        width: 160px;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+    footer .footer-container .logo h1 {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    footer .footer-container .logo p {
+        font-size: 12px;
+    }
+
+    footer .footer-container .logo a {
+        font-size: 10px;
+    }
+
+    footer .footer-container .logo .copyright {
+        font-size: 12px;
+    }
+
+    footer .footer-container .nav h1 {
+        font-size: 17px;
+        margin-left: 70px;
+    }
+
+    footer .footer-container .nav ul li {
+        line-height: 25px;
+        font-size: 12px;
+        margin-left: 70px;
+    }
+
+    footer .footer-container .nav ul li a {
+        font-size: 13px;
+    }
+
+    footer .footer-container .nav ul li a:hover {
+        font-size: 15px;
+    }
+
+    footer .footer-container .footer-service h2 {
+        font-size: 17px;
+    }
+
+    footer .footer-container .footer-service li {
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    footer .footer-container .footer-social h3 {
+        font-size: 17px;
+        margin-bottom: 80px;
+    }
+
+    footer .footer-container .footer-social a {
+        color: white;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+    /*Footer End*/
 }
 
-.hero .herodiv {
-    width: 90%;
-    height:250px;
-}
-
-.hero .herodiv .info {
-    margin-left: 50px;
-}
-
-.hero .herodiv .info h2 {
-    margin-top: 100px;
-    font-size: 14px;
-}
-
-.hero .herodiv .info h1 {
-    margin-top:20px;
-    font-size:18px;
-}
-
-.hero .herodiv .info h3 {
-    font-size: 13px;
-    margin-top:10px;
-}
-
-.hero .herodiv .info h4 {
-    margin-top: 12px;
-    font-size: 12px;
-}
-
-.hero .herodiv .info p {
-    margin-top: 10px;
-    font-size: 12px;
-    padding-bottom: 60px;
-}
-
-.hero .herodiv .img-logo {
-    width: 80px;
-    height: 70px;
-    outline: 2px solid rgb(255, 255, 255);
-    outline-offset: 5px;
-}
-
-.hero .contactinfo {
-    width: 95%;
-    align-items: start;
-    flex-direction: column;
-    gap:0px;
-    line-height:20px;
-    margin-top:0px;
-}
-.hero .contactinfo div {
-    width:160px;
-    margin-bottom: 10px;
-}
-
-.hero .contactinfo h2 {
-    font-size:14px;
-}
-
-.hero .contactinfo P {
-    font-size: 11px;
-}
-
-.hero .contactinfo p:hover {
-    font-size: 12px;
-}
-
-.hero .contactinfo a {
-    font-size: 12px;
-}
-.hero .contactinfo  div i{
-position: absolute;
-top:3px;
-font-size: 17px;
-}
-/*Section Hero End*/
-
-/*Section About Start*/
-.about {
-    width: 100%;
-    height:90vh;
-    padding-top:50px;
-}
-
-.about .aboutCont {
-    width: 95%;
-    height:700px;
-    flex-direction: column;
-    border-radius: 12px;
-}
-
-.about .aboutCont div {
-    width:90%;
-}
-
-.about .aboutCont div cite {
-    font-size: 15px;
-    line-height: 30px;
-}
-
-.about .aboutCont div h1 {
-    font-size: 20px;
-    margin:0px 0px 20px 0px;
-}
-
-.about .aboutCont div p {
-    font-size: 14px;
-    line-height: 25px;
-}
-
-.about .aboutCont div span {
-    font-size: 15px;
-}
-
-.about .aboutCont .about-img {
-    width:85%;
-    height:200px;
-    border: 2px solid rgb(50, 112, 228);
-    outline: 2px solid blueviolet;
-    outline-offset: 3px;
-    opacity: 0.9;
-}
-/*Section About End*/
-
-/*Section Skill Start*/
-.skill {
-    padding: 20px 0px 50px 0px;
-}
-
-.skill h1{
-    font-size: 20px;
-    padding: 20px 0px;
-}
-.skill .skillConteiner {
-    padding:20px;
-    gap: 10px;
-    box-shadow: 1px 1px 2px rgb(197, 193, 193), -1px -1px 2px rgb(197, 193, 193);
-}
-
-.skill .skillConteiner div {
-    width: 340px;
-    height: 360px;
-    padding:10px;
-}
-
-.skill .skillConteiner div img {
-    width: 100%;
-    height: 150px;
-    border-radius:10px;
-}
-
-.skill .skillConteiner div h1 {
-    font-size: 16px;
-    padding-top: 10px;
-}
-
-.skill .skillConteiner div p {
-    font-size: 13px;
-    margin-top: 10px;
-    line-height: 20px;
-}
-/*Section Skill End*/
-
-/*Section Service Start*/
-.services{
-    width: 100%;
-    height: auto;
-    margin:50px 0px 50px 0px;
-}
-.services .text-ser{
-    margin: 5px;
-    font-size: 20px;
-}
-.services .serviceList{
-    width:95%;
-    height: auto;
-    padding: 10px 0px;
-}
-.services .serviceList div{
-    width: 160px;
-    height:250px;
-    margin-bottom: 10px;
-    padding:5px;
-}
-
-.services .serviceList div h1{
-    font-size: 14px;
-    padding-bottom:10px;
-}
-
-.services .serviceList div i{
-    font-size:20px;
-    padding: 10px;
-}
-.services .serviceList div p{
-    font-size: 12px;
-    line-height: 20px;
-}
-/*Section Service End*/
-
-/*Section Project Start*/
-.project{
-    width: 100%;
-    height: auto;
-    padding-bottom: 50px;
-}
-.project .project-grid {
-    width: 95%;
-    height:auto;
-    display:flex;
-    flex-wrap: wrap;
-    gap:10px;
-}
-.project .project-text{
-    width:95%;
-    height:auto;
-    text-align: center;
-    padding: 30px;
-}
-.project .project-text h1{
-    font-size: 20px;
-    padding-bottom: 10px;
-}
-.project .project-text p{
-    font-size: 12px;
-}
-.project-grid div{
-    width: 150px;;
-    height: 220px;
-    margin:0 auto;
-}
-
-.project-grid div a{
-    font-size: 14px;
-}
-/*Section Project End*/
-
-/*Section Contact Start*/
-.contact {
-    width: 100%;
-    padding: 40px 0;
-}
-.contact h1{
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-.contact .cont-conteiner{
-    width:95%;
-    height: auto;
-    gap:0px;
-}
-.contact .cont-conteiner div{
-    width: 160px;
-    height:250px;
-    padding:7px;
-    margin-bottom: 10px;
-}
-
-.contact .cont-conteiner div h2{
-    font-size:16px;
-    padding-bottom:10px;
-}
-.contact .cont-conteiner .social p{
-     font-size:13px;
-     padding:20px 0px 50px 0px;
-}
-.contact .cont-conteiner .social a i{
-    font-size: 20px;
-    margin-right:8px;
-}
-
-.contact .cont-conteiner .personal h3{
-   font-size: 16px;
-   padding-bottom: 30px;
-}
-.contact .cont-conteiner .personal a{
-    font-size:8px;
-}
-.contact .cont-conteiner .personal P{
-    font-size: 13px;
-    padding: 5px 0px;
-}
-.contact .cont-conteiner .talk h2{
-    margin-bottom: 100px;
-}
-.contact .cont-conteiner .talk i{
-    font-size: 20px;
-}
-.contact .cont-conteiner .talk a{
-    font-size: 12px;
-    padding:10px 20px;
-
-}
-/*Section Contact End*/
-footer{
-    width: 100%;
-    height:auto;
-    padding: 50px 0px 0px 0px;
-}
-footer .footer-container{
-    width: 95%;
-    height: auto;
-}
-footer .footer-container div{
-    width: 160px;
-    height:280px;
-    margin-bottom: 20px;
-}
-footer .footer-container .logo h1{
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-footer .footer-container .logo p{
-    font-size: 12px;
-}
-footer .footer-container .logo a{
-    font-size:10px;
-}
-footer .footer-container .logo .copyright{
-    font-size: 12px;
-}
-
-footer .footer-container .nav h1{
-    font-size: 17px;
-    margin-left: 70px;
-}
-footer .footer-container .nav ul li{
-  line-height: 25px;
-  font-size:12px;
-  margin-left: 70px;
-}
-footer .footer-container .nav ul li a{
-   font-size: 13px;
-}
-footer .footer-container .nav ul li a:hover{
-    font-size: 15px;
-}
-footer .footer-container .footer-service h2{
- font-size: 17px;
-}
-footer .footer-container .footer-service li{
-    line-height: 25px;
-    font-size: 12px;
-}
-
-footer .footer-container .footer-social h3{
- font-size: 17px;
- margin-bottom: 80px;
-}
-
-footer .footer-container .footer-social a{
-    color:white;
-    font-size: 20px;
-    margin-right: 5px;
-}
-/*Footer End*/
-}
+/*Section @media Quary End*/
