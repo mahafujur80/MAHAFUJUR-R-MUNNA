@@ -397,7 +397,7 @@ line-height: 25px;
 .project{
     width: 100%;
     height:auto;
-    background: rgb(231, 250, 252);
+    background: rgb(225, 245, 247);
     padding-bottom: 50px;
 }
 .project .project-grid {
@@ -981,4 +981,124 @@ font-size: 17px;
     font-size: 14px;
 }
 /*Section Project End*/
+
+/*Section Contact Start*/
+.contact {
+    width: 100%;
+    padding: 40px 0;
+}
+.contact h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.contact .cont-conteiner{
+    width:95%;
+    height: auto;
+    gap:0px;
+}
+.contact .cont-conteiner div{
+    width: 160px;
+    height:250px;
+    padding:7px;
+    margin-bottom: 10px;
+}
+
+.contact .cont-conteiner div h2{
+    font-size:16px;
+    padding-bottom:10px;
+}
+.contact .cont-conteiner .social p{
+     font-size:13px;
+     padding:20px 0px 50px 0px;
+}
+.contact .cont-conteiner .social a i{
+    font-size: 20px;
+    margin-right:8px;
+}
+
+.contact .cont-conteiner .personal h3{
+   font-size: 16px;
+   padding-bottom: 30px;
+}
+.contact .cont-conteiner .personal a{
+    font-size:8px;
+}
+.contact .cont-conteiner .personal P{
+    font-size: 13px;
+    padding: 5px 0px;
+}
+.contact .cont-conteiner .talk h2{
+    margin-bottom: 100px;
+}
+.contact .cont-conteiner .talk i{
+    font-size: 20px;
+}
+.contact .cont-conteiner .talk a{
+    font-size: 12px;
+    padding:10px 20px;
+
+}
+/*Section Contact End*/
+footer{
+    width: 100%;
+    height:auto;
+    padding: 50px 0px 0px 0px;
+}
+footer .footer-container{
+    width: 95%;
+    height: auto;
+}
+footer .footer-container div{
+    width: 160px;
+    height:280px;
+    margin-bottom: 20px;
+}
+footer .footer-container .logo h1{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+footer .footer-container .logo p{
+    font-size: 12px;
+}
+footer .footer-container .logo a{
+    font-size:10px;
+}
+footer .footer-container .logo .copyright{
+    font-size: 12px;
+}
+
+footer .footer-container .nav h1{
+    font-size: 17px;
+    margin-left: 70px;
+}
+footer .footer-container .nav ul li{
+  line-height: 25px;
+  font-size:12px;
+  margin-left: 70px;
+}
+footer .footer-container .nav ul li a{
+   font-size: 13px;
+}
+footer .footer-container .nav ul li a:hover{
+    font-size: 15px;
+}
+footer .footer-container .footer-service h2{
+ font-size: 17px;
+}
+footer .footer-container .footer-service li{
+    line-height: 25px;
+    font-size: 12px;
+}
+
+footer .footer-container .footer-social h3{
+ font-size: 17px;
+ margin-bottom: 80px;
+}
+
+footer .footer-container .footer-social a{
+    color:white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+/*Footer End*/
 }
