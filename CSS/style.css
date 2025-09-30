@@ -1,0 +1,663 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #0080ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header div {
+    margin: auto 100px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .logo h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+header .nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+header .nav ul li a:hover {
+    background: white;
+    color: #0080ff;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(17, 153, 142, 0.5), rgba(56, 239, 125, 0.5)), url(../IMG/bg-img-hero01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .herodiv {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.hero .herodiv .info {
+    margin-left: 150px;
+}
+
+.hero .herodiv .info h2 {
+    margin-top: 100px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.hero .herodiv .info h1 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.hero .herodiv .info h3 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Roboto Mono", monospace;
+    margin-top: 10px;
+}
+
+.hero .herodiv .info h4 {
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.hero .herodiv .info p {
+    margin-top: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+
+.hero .herodiv .img-logo {
+    width: 200px;
+    height: 200px;
+    background: url(../IMG/logo-imge-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    opacity: 0.9;
+    outline: 3px solid rgb(255, 255, 255);
+    outline-offset: 15px;
+}
+
+.hero .contactinfo {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    color: white;
+    line-height: 50px;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 50px;
+}
+
+.hero .contactinfo div {
+    width: 400px;
+    position: relative;
+}
+
+.hero .contactinfo h2 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.hero .contactinfo P {
+    display: inline;
+}
+
+.hero .contactinfo p:hover {
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.hero .contactinfo a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero .contactinfo a:hover {
+    text-shadow: 2px 3px 5px rgb(182, 220, 255), -2px -3px 5px rgb(182, 220, 255);
+}
+
+.hero .contactinfo div i {
+    position: absolute;
+    font-size: 25px;
+    right: 0px;
+    bottom: 13px;
+    margin-left: 10px;
+}
+
+
+.about {
+    width: 100%;
+    height:100vh;
+    background-color: rgb(227, 242, 255);
+    padding-top:70px;
+
+
+}
+
+.about .aboutCont {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 5px rgb(177, 176, 176), -2px -2px 5px rgb(177, 176, 176);
+    border-radius: 10px;
+}
+
+.about .aboutCont div {
+    width: 700px;
+}
+
+.about .aboutCont div cite {
+    color: #0051ff;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.about .aboutCont div h1 {
+    color: rgb(70, 70, 70);
+    font-weight: 600;
+    font-size: 25px;
+    margin: 80px 0px 20px 0px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.about .aboutCont div p {
+    color: rgb(75, 74, 74);
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.about .aboutCont div span {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.about .aboutCont .about-img {
+    width: 250px;
+    height: 300px;
+    background: url(../IMG/about-IMG.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    border: 3px solid rgb(50, 112, 228);
+    outline: 3px solid blueviolet;
+    outline-offset: 5px;
+    opacity: 0.9;
+}
+
+
+
+.skill {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 50px 0px;
+    background-color: aliceblue;
+
+}
+
+.skill h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    font-family: "Ubuntu", monospace;
+    letter-spacing: 5px;
+    color:#0051ff;
+}
+.skill .skillConteiner {
+    width: 95%;
+    height:auto;
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgb(197, 193, 193), -2px -2px 5px rgb(197, 193, 193);
+    border-radius: 15px;
+}
+
+.skill .skillConteiner div {
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    transition:  0.3s ease-in-out;
+}
+
+.skill .skillConteiner div:hover {
+    transform: scale(1.06);
+}
+
+.skill .skillConteiner div img {
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+}
+
+.skill .skillConteiner div img:hover {
+    transform: scale(1.07);
+    transition: all 0.3s ease-in-out;
+}
+
+.skill .skillConteiner div h1 {
+    font-size: 20px;
+    color: rgb(75, 74, 74);
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.skill .skillConteiner div p {
+    color: rgb(85, 84, 84);
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.services{
+    width: 100%;
+    height: auto;
+    margin:50px 0px 50px 0px;
+}
+.services .text-ser{
+    text-align: center;
+    margin: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    color:#0051ff;
+    font-family: "Ubuntu";
+}
+.services .serviceList{
+    width: 90%;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    perspective: 100px;
+}
+.services .serviceList div{
+    width: 280px;
+    height:290px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background: rgb(236, 234, 234);
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
+.services .serviceList div:hover{
+    transform:scale(1.05);
+    background: linear-gradient(rgba(46, 46, 236, 0.699),rgba(37, 185, 243, 0.726));
+}
+.services .serviceList div h1{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    font-family: "Ubuntu"sans-serif;
+    color:rgb(85, 84, 84);
+}
+.services .serviceList div:hover h1{
+    color:white;
+}
+.services .serviceList div i{
+    font-size:30px;
+    padding: 20px;
+    margin-right: 25px;
+    color:#0080ff;
+}
+.services .serviceList div:hover i{
+    color:white;
+}
+.services .serviceList div p{
+    font-size: 14px;
+    color:rgb(70, 70, 70);
+line-height: 25px;
+}
+.services .serviceList div:hover p{
+    color:white;
+}
+
+
+
+.project{
+    width: 100%;
+    height:auto;
+    background: rgb(231, 250, 252);
+    padding-bottom: 50px;
+}
+.project .project-grid {
+    width: 70%;
+    height:450px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:20px;
+}
+.project .project-text{
+    text-align: center;
+    width: 700px;
+    margin:0 auto;
+    padding: 30px;
+}
+.project .project-text h1{
+    color:#0051ff;
+    font-family: "Ubuntu";
+    padding-bottom: 10px;
+}
+.project .project-text p{
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.726);
+}
+.project-grid div{
+    background-color: #8998bd;
+    width:auto;
+    height: 220px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.project-grid div:hover{
+    transform: scale(1.05);
+}
+
+.project-grid div a{
+       display: none;
+}
+.project-grid .grid1{
+    grid-column: 1/3;
+    background:url(../IMG/vegefoods-bg.PNG) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.project-grid .grid2{
+    background:url(../IMG/basic-ecom-bg.PNG) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.project-grid .grid6{
+   grid-column: 3/5;
+     height: auto;
+    background:url(../IMG/mrm-port-bg.PNG) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.project-grid div a{
+    text-decoration: none;
+    background:#0080ff;
+    color:white;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius:5px;
+}
+.project-grid div:hover a{
+    display: inline-block;
+    margin-top: 100px;
+    box-shadow: 2px 2px 5px rgb(77, 77, 247),-2px -2px 5px rgb(77, 77, 247);
+}
+.project-grid div a:hover{
+    background-color: rebeccapurple;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.contact {
+    width: 100%;
+    height: auto;
+    background: rgb(243, 245, 247);
+    padding: 40px 0;
+}
+.contact h1{
+    text-align:center;
+    font-size: 30px;
+    font-weight: 600;
+    color:#0051ff;
+    padding: 20px;
+    font-family:"Ubuntu";
+
+}
+.contact .cont-conteiner{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contact .cont-conteiner div{
+    width: 300px;
+    height:300px;
+    background: #e6e6e6;
+    border-radius: 8px;
+    padding: 15px;
+}
+iframe{
+  width:100%;
+  height:90%;
+}
+.contact .cont-conteiner div h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    color:#0080ff;
+    padding-bottom: 20px;
+}
+.contact .cont-conteiner .social p{
+     font-size: 15px;
+     color:rgb(97, 96, 96);
+     padding:20px 0px 60px 0px;
+}
+.contact .cont-conteiner .social a i{
+    font-size: 25px;
+    margin-right: 10px;
+    color:#434344;
+}
+.contact .cont-conteiner .social a i:hover{
+    color: blueviolet;
+    transform: rotateY(360deg) scale(1.5);
+    transition: all 0.6s ease-in-out;
+}
+.contact .cont-conteiner .personal h3{
+   color:#0080ff;
+   font-weight: 600;
+   font-family:"Ubuntu", sans-serif;
+   padding-bottom: 40px;
+}
+.contact .cont-conteiner .personal a{
+    text-decoration: none;
+    font-size:13px;
+    color:rgb(97, 96, 96);
+}
+.contact .cont-conteiner .personal P{
+    font-size: 15px;
+    color:rgb(97, 96, 96);
+    padding:10px 0px;
+}
+.contact .cont-conteiner .talk h2{
+    margin-bottom: 150px;
+}
+.contact .cont-conteiner .talk i{
+    font-size: 30px;
+}
+.contact .cont-conteiner .talk a{
+    text-decoration: none;
+    color:white;
+    background:linear-gradient(rgb(110, 189, 241),rgb(83, 100, 248));
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
+.contact .cont-conteiner .talk a:hover{
+    background:linear-gradient(rgb(79, 179, 247),rgb(69, 87, 243));
+    box-shadow: 2px 2px 10px rgb(44, 243, 104),-2px -2px 10px rgb(44, 243, 104);
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #383846;
+    padding: 50px 0px 50px 0px ;
+}
+footer .footer-container{
+    width: 90%;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    color: #ffffff;
+}
+footer .footer-container div{
+    width: 300px;
+    height: auto;
+}
+footer .footer-container .logo h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "Ubuntu",sans-serif;
+    color:rgba(255, 255, 72, 0.801);
+
+}
+footer .footer-container .logo p{
+    font-size: 13px;
+    color:rgb(219, 219, 217);
+}
+footer .footer-container .logo a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: 600;
+    font-size:14px;
+    color:rgb(219, 219, 217);
+}
+footer .footer-container .logo a:hover{
+    color:#0080ff;
+    text-decoration:underline;
+}
+footer .footer-container .logo .copyright{
+    margin-top: 20px;
+    font-style: italic;
+}
+
+footer .footer-container .nav h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: "Ubuntu",sans-serif;
+    color:rgba(255, 255, 72, 0.801);
+    margin-left: 80px;
+}
+footer .footer-container .nav ul li{
+  list-style: none;
+  line-height: 30px;
+  font-size: 15px;
+  margin-left: 80px;
+}
+footer .footer-container .nav ul li a{
+    text-decoration: none;
+   color:rgb(219, 219, 217);
+}
+footer .footer-container .nav ul li a:hover{
+    color:#0080ff;
+    font-size: 16px;
+}
+
+footer .footer-container .footer-service h2{
+ font-size: 20px;
+ font-weight: 600;
+ font-family: "Ubuntu" ,sans-serif;
+ margin-bottom:20px;
+ color:rgba(255, 255, 72, 0.801);
+}
+footer .footer-container .footer-service li{
+    list-style: none;
+    line-height: 30px;
+    font-size: 14px;
+    color:rgb(219, 219, 217);
+}
+
+footer .footer-container .footer-social h3{
+ font-size: 20px;
+ font-weight: 600;
+ margin-bottom: 100px;
+ font-family: "Ubuntu",sans-serif;
+ color:rgba(255, 255, 72, 0.801);
+}
+
+footer .footer-container .footer-social a{
+    color:white;
+    font-size: 25px;
+    margin-right: 10px;
+    color:rgb(219, 219, 217);
+}
+footer .footer-container .footer-social a:hover{
+    color:#0080ff;
+    transition: all 0.3s ease-in-out;
+    font-size: 23px;
+    padding: 0px 11px;
+}
