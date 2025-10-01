@@ -194,7 +194,7 @@ header .nav ul li a:hover {
 /*Section About Start*/
 .about {
     width: 100%;
-    height: 100vh;
+    min-height: 90vh;
     background-color: rgb(227, 242, 255);
     padding-top: 70px;
 
@@ -898,8 +898,8 @@ footer .footer-container .footer-social a:hover {
     /*Section About Start*/
     .about {
         width: 100%;
-        height: 90vh;
-        padding-top: 50px;
+        height: auto;
+        padding: 50px 0px;
     }
 
     .about .aboutCont {
@@ -1084,6 +1084,7 @@ footer .footer-container .footer-social a:hover {
     .contact .cont-conteiner {
         width: 95%;
         height: auto;
+        justify-content: space-around;
         gap: 0px;
     }
 
@@ -1140,18 +1141,19 @@ footer .footer-container .footer-social a:hover {
     /*Section Contact End*/
     footer {
         width: 100%;
-        height: auto;
-        padding: 50px 0px 0px 0px;
+        height: 500px;;
+        padding: 50px 0px 1px 0px;
     }
 
     footer .footer-container {
         width: 95%;
-        height: auto;
+        height:450;
+        border:1px solid;
     }
 
     footer .footer-container div {
         width: 160px;
-        height: 280px;
+        height:auto;
         margin-bottom: 20px;
     }
 
