@@ -44,5 +44,4 @@ If you want to **connect, collaborate, or hire me**, you can find my contact det
 
 ---
 
-✨ This portfolio represents **who I am, what I do, and how I can help you with professional web solutions.**  
-
+✨ This portfolio represents **who I am, what I do, and how I can help you with professional web solutions.**
